@@ -1,0 +1,22 @@
+Opdracht 1:
+Maak je eerste repository van de map Bootcamp. 
+Kijk eens op: https://docs.github.com/en/desktop 
+Vooral het stukje: Creating your first repository using GitHub Desktop
+
+Opdracht 2:
+Maak een extra mapje en commit en push je veranderingen. 
+Controleer of de extra map is aangekomen in je repo bij Github.
+
+Opdracht 3: 
+Maak een .txt bestandje aan en zet hier wat tekst in. Commit en push.
+Is het bestandje aangekomen in je repo? Verander nu de tekst en voer nogmaals een commit en push uit.
+Zijn de veranderingen doorgekomen?
+
+Opdracht 4:
+Stuur je docent via Teams een link naar je repo.
+
+Opdracht 5:
+Maak een printscreen van je repo en plaats deze in de map uitwerkingen.
+
+Opdracht 6:
+Zijn er mensen in je klas die moeite hebben met Git? Probeer ze eens te helpen!

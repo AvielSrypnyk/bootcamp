@@ -1,0 +1,24 @@
+Opdracht 1:
+Lees de pagina: https://www.w3schools.com/whatis/whatis_cli.asp
+Je hebt al een map c:\school\code\bootcamp aangemaakt en de zip van de opdracht uitgepakt.
+Via de CLI voer je volgende opdrachten uit:
+	- Maak naast de map bootcamp de mappen: Leren programmeren, assesments en kladblaadjes.
+	- Maak vervolgens een map rommel en gooi deze weg.
+De opdrachten die je hebt gebruikt zet je in een bestandje met de naam CLI.txt die je vervolgens opslaat in de map uitwerkingen van dag 1.
+
+
+Opdracht 2: 
+Installeer de volgende programma's op je PC (of Mac):
+- Visual Studio Code 		- https://code.visualstudio.com/download
+- Github Desktop		- https://desktop.github.com/
+- Python (laatste versie) 	- https://www.python.org/downloads/
+Bekijk voordat je gaat installeren de handleiding in It's Learning (kennisbank- tools- Python).
+
+
+Opdracht 3:
+Ga naar Github.com
+Maak een account aan met je school e-mail account.
+Vraag nu een Student Pack aan met je GitHub account.
+
+Opdracht 4:
+Zet in de map uitwerkingen een screenshot van je IDE en je Github pagina.

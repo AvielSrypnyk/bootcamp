@@ -1,0 +1,43 @@
+Opdracht 1: 
+Reken met de Python Command Line uit:
+a.
+het totaal bedrag aan collegegeld betaald door (de ouders van) alle studenten uit jouw klas. 
+Hoeveel studenten zijn er in jouw klas? Wat is het collegegeld voor dit studiejaar (€1115,- per jaar)? Even opzoeken. 
+b.
+De BTW voor al het fruit in de fruitmand: 
+je betaalde 3.40 euro voor de appels, 
+2.45 voor de druiven, 
+1.95 voor de bananen. 
+
+En By The Way wat is de BTW op fruit? 9%!
+
+Opdracht 2:
+Lever een printscreen in van je uitwerkingen.
+
+Opdracht 3:
+We gaan aan de slag met een .py bestand: 
+Zet de uitwerking van opdracht 1 in een .py bestand en controleer of je programma werkt en berekent wat het moet berekenen.
+(vanaf nu geldt: noem je bestand les_X_opdX.py en zet het in de map uitwerkingen. Dit bestand heet dan: les_3_opd_3.py)
+Uiteraard commit en push je de uitwerking!!!
+
+Opdracht 4 (Mad Libs):
+Je krijgt de volgende tekst. 
+Het is de bedoeling dat je een programma schrijft wat vraagt een woord (of zin) in te voeren voor ieder woord tussen haakjes. 
+Vervolgens zorg je ervoor dat de woorden in het verhaal terechtkomen.
+
+Het was een (woord_1) dag in (stad_1). (naam_1) liep door de straten, op zoek naar een (woord_3). Plotseling (naam_1) je een (woord_4) man/vrouw die een (woord_5) verkocht. (naam_1) besloot om het te kopen en liep verder. Toen (naam_1) bij een (woord_6) kwam, zag hij/zij een groep mensen die (woord_zin_7). (naam_1) besloot om mee te doen en had de tijd van zijn/haar leven.
+
+Stappenplan: 
+Stap 1: Maak een variabele aan die je door de gebruiker laat vullen. 
+Bijv: woord_1 = input("Wat voor soort dag moet het zijn?")
+
+Stap 2: herhaal stap 1 voor ieder woord tussen haakjes. (bedenk zelf goede vragen)
+
+Stap 3: maak een variabele tekst waarin je het verhaal samenvoegt. (gebruik string concatenation) 
+
+Stap 4: print je verhaal.
+
+Heb je tijd over? Verzin je eigen madlibs game. 
+
+
+

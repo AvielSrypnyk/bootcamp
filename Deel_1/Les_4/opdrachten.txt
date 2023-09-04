@@ -1,0 +1,88 @@
+Let op: maak een apart bestandje voor iedere opdracht en zet dit in de map uitwerking. 
+Commit en push regelmatig je code.
+
+Opdracht 1: 
+Operators, wat zijn dat?
+Maak een programma wat de volgende sommetjes uitrekent.
+Kun je de uitkomst verklaren? 
+print( 15+4 )
+print( 15-4 )
+print( 15*4 )
+print( 15/4 )
+print( 15//4 )
+print( 15**4 )
+print( 15%4 )
+
+
+Opdracht 2:
+Maak een programma wat de volgende sommetjes uitrekent:
+print( 5*2 -3+4/2 )
+print( 5*2 - 3+4 / 2 )
+Krijg je nu dezelfde uitkomst? 
+
+Vervolgens de volgende 2: 
+print( (5*2) - (3+4) /2 )
+print( ((5*2) -(3+4)) / 2 )
+
+Vreemd, dezelfde getallen. Kun je de uitkomst verklaren? 
+Schrijf wat commentaar in je code waarin je de uitkomst verklaart.
+
+Opdracht 3:
+Maak een variabele naam en geef deze variabele je eigen naam als waarde.
+Schrijf vervolgens een statement wat afdrukt:
+ Hallo + eigen naam +, ik leer nu programmeren. 
+
+Welke operator(s) gebruik je in dit programma?
+Verander de waarde van naam naar de naam van je buurman. 
+Werkt je programma nog steeds goed?
+
+Opdracht 4:
+Kopieer het programma van opdracht 3.
+Verander de waarde van de variabele naam in 252 (het getal 252)
+Van welk type is de variabele nu geworden (zet dat er in een commentaarregel achter).
+Werkt je programma nog steeds?
+
+Ja: ga door naar 5 (roep je docent).
+Nee: ga door naar 5. Dit komt morgen :-)
+
+Opdracht 5:
+Schrijf een programma met twee variabelen.
+Geef de eerste variabele de waarde 25 en de tweede 0.
+Deel variabele een door variabele twee. 
+Wat gebeurt er? 
+
+
+Opdracht 6:
+Zit er een fout in de haakjes? Los deze op!: 
+print( ((2*3 /4 + (5 -6/7) *8 ) # We verwachten: 34.642857142857146
+print( ((12*13 /14) + (15 -16) /17) *18 ) # We verwachten: 199.5126050420168
+
+
+Opdracht 7:
+Delen doet soms iets vreemds! Bekijk de volgende code
+print( (431 / 100) * 100 )
+Wat denk je dat eruit komt? En test het daarna eens!
+Wat gebeurt hier? Schrijf dit op als commentaar!
+
+
+Opdracht 8:
+Schrijf een programma wat uitrekent hoeveel keer 13 (helemaal) in 625 past!
+Bereken ook wat er overblijft.
+(hint: gebruik de modulo en integer deling (of floor division))
+
+
+Opdracht 9:
+Maak nu een programma waarin alle getallen variabelen zijn en zorg ervoor de uitkomst wordt geprint. 
+Het totaal bedrag aan collegegeld betaald door (de ouders van) alle studenten uit jouw klas. 
+Hoeveel studenten zijn er in jouw klas? Wat is het collegegeld voor dit studiejaar? Even opzoeken. 
+
+De BTW voor al het fruit in de fruitmand: 
+je betaalde 3.40 euro voor de appels, 
+2.45 voor de druiven, 
+1.95 voor de bananen. 
+
+En By The Way wat is de BTW op fruit? Even opzoeken!
+
+
+Opdracht 10:
+Schrijf een programma wat uitrekent hoeveel seconden er in een dag zitten. (en in een week) (en in een jaar)
