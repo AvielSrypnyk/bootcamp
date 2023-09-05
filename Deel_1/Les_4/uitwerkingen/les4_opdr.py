@@ -55,6 +55,7 @@ print ("het is zoveel:", sum)
 print((3.40 + 2.45 + 1.95) / 109 * 9)
 
 print("opdracht 10")
+#Ik heb niet goed begrepen
 slaaptijd = input("Hoeveel slaap je?: ")
 time = input("Hoeveel uren heb je activiteit?: ")
 odds = (24 - int(slaaptijd) - int(time))
@@ -64,3 +65,10 @@ print("Je zit zoveel in een week " + str(week))
 
 jaar = (int(odds) * 365)
 print("Je zit zoveel in een jaar " + str(jaar))
+
+#Hier is een goede antwoord
+dag = 60 * 60 * 24
+week = dag * 7
+jaar = week * 52
+
+print(dag, week, jaar)
