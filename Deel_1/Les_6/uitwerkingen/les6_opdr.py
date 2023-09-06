@@ -18,7 +18,7 @@ else:
 print("opdracht 3")
 leeftijd = int(input("Hoe oud ben jij?: "))
 
-if 16 < leeftijd:
+if 16 <= leeftijd:
     print("Gefeliciteerd, je mag je brommerrijbewijs halen.")
 elif 16 > leeftijd:
     print("Helaas, je zult nog even moeten wachten.")
