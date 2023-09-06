@@ -1,0 +1,8 @@
+Opdracht 1:
+je spel (van de vorige les) wordt een hit.
+Gebruikers klagen alleen dat het erg lang duurt voordat ze klaar zijn met raden.
+Na diepgravend onderzoek kom er achter dat je nergens meldt in welke range men kan raden en gebruikers blijken dus te denken dat ze tussen 1 en 100 mogen raden.
+
+Breid je gereedschap uit met een functie die kan controleren of de ingevoerde waarde in een lijst voorkomt. 
+Je kunt deze functie op twee plaatsen inzetten. Waar? En doe dit dan ook.
+

@@ -1,0 +1,15 @@
+Opdracht 1:
+Schrijf een programma dat een lege lijst maakt en vervolgens de gebruiker vraagt om 5 getallen in te voeren. Gebruik de append functie om elk getal aan de lijst toe te voegen en print vervolgens de lijst.
+
+Opdracht 2:
+Schrijf een programma dat een lijst van 5 getallen maakt en vervolgens de gebruiker vraagt om een index in te voeren. Gebruik de pop functie om het getal op de opgegeven index uit de lijst te verwijderen en print vervolgens het verwijderde getal en de bijgewerkte lijst.
+
+Opdracht 3:
+Schrijf een programma dat een lijst van fruitsoorten maakt en vervolgens de gebruiker vraagt om een fruitsoort in te voeren. Gebruik de remove functie om het opgegeven fruit uit de lijst te verwijderen en print vervolgens de bijgewerkte lijst.
+
+Opdracht 4:
+Schrijf een programma dat een lege lijst maakt en vervolgens de gebruiker vraagt om 5 woorden in te voeren. Gebruik de append functie om elk woord aan de lijst toe te voegen en gebruik vervolgens een for-lus om door elk woord in de lijst te itereren en print elk woord op een aparte regel.
+
+Opdracht 5:
+Schrijf een programma dat een lijst van 5 namen maakt en vervolgens de gebruiker vraagt om een naam in te voeren. 
+Gebruik de remove functie om de opgegeven naam uit de lijst te verwijderen als deze voorkomt en print vervolgens de bijgewerkte lijst. Als de opgegeven naam niet in de lijst voorkomt, gebruik dan de append functie om deze aan de lijst toe te voegen en print vervolgens de bijgewerkte lijst.

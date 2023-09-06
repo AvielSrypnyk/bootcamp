@@ -1,0 +1,23 @@
+Opdracht 1:
+Raad het getal.
+Je gaat een eenvoudig raadspelletje maken. Hiervoor volg je een aantal stappen.
+1. Maak een variabele aan en vul deze met een random getal tussen 1 en 5.
+2. Vraag de gebruiker een getal in te voeren tussen 1 en 5.
+3  a. Goed geraden: print dan in het groen: "Je hebt het getal goed geraden!"
+   b. Niet goed: print dan in het rood: "Je hebt het getal niet goed geraden!"
+
+Opdracht 2:
+Breid je programma nu zodanig uit dat de gebruiker net zolang moet raden tot hij het juiste getal heeft gevonden.
+
+Opdracht 3:
+Zorg ervoor dat je drie rondjes achter elkaar kunt spelen en er dus drie keer een getal moet worden geraden.
+
+Opdracht 4:
+Verslavend: de gebruikers vinden je game zo leuk dat ze er niet mee kunnen stoppen.
+Pas je game daarom als volgt aan: 
+- goed geraden? Vraag of de gebruiker nog een ronde wil spelen.
+- aan het einde print je het aantal gespeelde ronden en het aantal keer dat de gebruiker fout heeft geraden.
+
+
+
+	
