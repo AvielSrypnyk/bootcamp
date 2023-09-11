@@ -15,7 +15,6 @@ Hierin schrijf je de volgende functies:
 krijgt één string parameter, de prompt, en vraagt de gebruiker via
 die prompt om een integer in te geven. De functie retourneert een integer.
 
-
 - get_float() 
 krijgt één string parameter, de prompt, en vraagt de gebruiker via die
 prompt om een float in te geven. De functie retourneert een float.
