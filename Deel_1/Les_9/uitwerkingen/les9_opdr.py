@@ -75,7 +75,12 @@ leeftijd = int(input("Hoe oud ben je? "))
 snor = input("Heb je een snor(j/n)? ")
 diploma = input("Heb je een diploma(j/n)?")
 
-if leeftijd >= 18 and snor == "j" and diploma == "j":
+if (leeftijd >= 18 and snor == "j") or (leeftijd < 18 and diploma == "j"):
    print("Je bent aangenomen")
 else:
    print("Jij bent niet aangenomen")
+
+i = 1
+while i < 6:
+   print(i)
+   i += 1 
