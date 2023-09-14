@@ -1,0 +1,86 @@
+Opdracht 1.
+Maak de expressies af (vul de juiste operator in)
+Let op: soms zijn er meerdere mogelijkheden, 1 antwoord is genoeg.
+
+print(6 . 3) 	# toont: 18
+print(15 . 13) 	# toont: 2
+print(3 . 3) 	# toont: 1
+print(16 . 3)   # toont: 1
+print(6 . 3) 	# toont: 216
+
+
+Opdracht 2
+Vul in and of or
+print(6 > 3 ... 2 < 3) 		# print: True
+print(3 > 6 ... 2 < 3) 		# print: True
+print('a' == 'a' .. 'a' == 'b') # print: True
+print(9 > 3 .. 5 > 4)  		# print: True
+
+
+Opdracht 3.
+
+Schrijf een programma met de volgende functionaliteit:
+- vraag de gebruiker zijn naam in te voeren. 
+- vraag de gebruiker zijn leeftijd in jaren in te voeren. 
+
+Het programma 'print' (op het scherm via de terminal) vervolgens 1 van de volgende uitkomsten:
+- Beste <naam>, je bent nog geen 18. Alleen autorijden zit er dus niet in :-( 
+- Beste <naam>, je bent 18 of ouder en mag dus alleen autorijden (met rijbewijs althans).
+
+Let op: Op de plek van <naam> toont het programma de ingevoerde naam.
+
+
+Opdracht 4.
+
+Joris de Tester heeft een programma geschreven om de kosten van vloerbedekking te berekenen. Er zijn staffelprijzen (afwijkende prijzen voor grote bestellingen) voor verschillende hoeveelheden. 
+Er zit echter een fout in de code die moet worden verbeterd. Kun jij helpen? 😊
+
+oppervlakte = int(input('Hoeveel m2 vloerbedekking heeft u nodig?'))
+prijs_m2 = 40
+
+if oppervlakte >= 150:
+    prijs_m2 = 35
+if oppervlakte >= 80:
+    prijs_m2 = 38
+
+totaal = prijs_m2 * oppervlakte
+
+print(f'Het totaalbedrag is voor een oppervlakte van {oppervlakte} m2 is: Eur ' + str(totaal))
+
+Lever een verbeterde (correct werkende) versie van de code in!
+
+
+Opdracht 5.
+
+Joris de Tester heeft het probleem opgelost. Helaas heeft hij wel weer een volgende uitdaging: 
+Gevraagd is tussen input en print 3 keer te printen: 
+"Een moment geduld a.u.b., de scherpste prijs wordt berekend."
+Voor het effect wacht het programma steeds een seconde.
+
+Joris is aan de slag gegaan en heeft de volgende code opgeleverd:
+
+from time import sleep # je hoeft nog niet te weten wat een import is, Kopieer deze regel en je kunt je programma laten wachten met de opdracht sleep(x seconden)
+
+
+oppervlakte = int(input('Hoeveel m2 vloerbedekking heeft u nodig?'))
+prijs_m2 = 40
+
+print("Een moment geduld a.u.b., de scherpste prijs wordt berekend.")
+sleep(1)
+print("Een moment geduld a.u.b., de scherpste prijs wordt berekend.")
+sleep(1)
+print("Een moment geduld a.u.b., de scherpste prijs wordt berekend.")
+sleep(1)
+
+# secret code containing the answer of question 2
+
+# end of secret
+
+totaal = prijs_m2 * oppervlakte
+
+print(f'Het scherpste prijs voor een oppervlakte van {oppervlakte} m2 is: Eur ' + str(totaal))
+
+Na onderzoek blijkt het echter effectiever te zijn om het aantal meldingen (plus sleeps) te vergroten naar 5.
+
+De opdracht aan jou is: schrijf een versie van het programma die een constante gebruikt voor het aantal te tonen meldingen.
+
