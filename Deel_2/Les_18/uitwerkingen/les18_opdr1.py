@@ -8,46 +8,49 @@
 
 
 import random
+from termcolor import colored
 
+getal1 = random.randint(1,5)
+getal_invullen = True
+kansen = 3
+Jalist = ["ja", "j", "y", "yes"]
+rondes = 1
+fouten = 0
 
-min_range = 1
-max_range = 100
+print(getal1)
+while getal_invullen:
+    try:
+        raadgetal = int(input("raad een getal tussen 1 en 5 "))
+    except ValueError:
+        print("vul een getal in tussen 1 en 5! ")
 
-def is_within_range(guess, min_value, max_value):
-    if min_value <= guess <= max_value:
-        return True
-    else:
-        return False
-
-def main():
-    GoodStreak = 0
-    aantal_keer = 0
-    aantal_fouten = 0
-
-    while True:
-        while True:
-            user_guess = int(input(f"Raad een getal tussen {min_range} en {max_range}: "))
-            if is_within_range(user_guess, min_range, max_range):
-                break
-            else:
-                print("Ongeldige invoer. Probeer opnieuw.")
-
-        a = random.randint(min_range, max_range)
-        aantal_keer += 1
-        
-        if user_guess == a:
-            print(f"Je hebt het juiste getal geraden! Het is {a}")
-            GoodStreak += 1
+    if raadgetal == getal1:
+        print(colored(f"goed geraden", "green"))
+        vraag = input("wil je nog potje spelen j/n ").lower()
+        rondes += 1
+        if vraag in Jalist:
+            getal1 = random.randint(1, 5)
+            print("Sucsess")
+            kansen = 3
         else:
-            print("Je hebt het getal niet goed geraden. Probeer opnieuw.")
-            aantal_fouten += 1
-        
-        if GoodStreak == 3:
-            print(f"Je hebt 3 keer op rij correct geraden! Aantal gespeelde ronden: {aantal_keer}, Aantal fouten: {aantal_fouten}")
-            verder = input("Wil je verder spelen (j/n)? ")
-            if verder.lower() != "j":
-                break
+            print("Tot ziens")
+            getal_invullen = False
 
-if __name__ == "__main__":
-    main()
+    elif kansen >= 1:
+        kansen -= 1
+        fouten += 1
+        print(colored("verkeerd geraden!", "red"))
+        getal_invullen = True
+
+    if kansen == 0:
+        vraag = input("wil je nog potje spelen j/n ")
+        if vraag in Jalist:
+            getal1 = random.randint(1, 5)
+            print("Sucsess")
+            kansen = 3
+        else:
+            print("Tot ziens")
+            getal_invullen = False
+
+print(f"je hebt {rondes} rondes gespeeld en {fouten} fouten gemaakt ")
 
