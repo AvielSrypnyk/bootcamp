@@ -80,7 +80,4 @@ if (leeftijd >= 18 and snor == "j") or (leeftijd < 18 and diploma == "j"):
 else:
    print("Jij bent niet aangenomen")
 
-i = 1
-while i < 6:
-   print(i)
-   i += 1 
+
